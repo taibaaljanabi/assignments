@@ -1,0 +1,61 @@
+.dark{
+    background-color: gray;
+    height: 100vh;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+}
+.light{
+    background-color: bisque;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: rgba(218, 24, 24, 0.317);
+    height: 15vh;
+    width: 25vh;
+    border-radius: 20px;
+}
+.navBd{
+    height: 20vh;
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+.navBl{
+    height: 20vh;
+    background-color: rgb(12, 65, 62);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.lightt{
+    font-family: fantasy;
+    font-size: 40px;
+    text-decoration-color: blueviolet;
+}
+.darkt{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-decoration-color: black;
+}
+.Footerl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    background-color: lightpink;
+}
+.Footerd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    background-color: rgb(60, 46, 46);
+}
