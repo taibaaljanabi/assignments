@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+
+
+
+body {
+    margin: 10px;
+    background-color: bisque;
+    display: grid;
+    height: 700px;
+
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 100px 800px 100px;
+
+    grid-gap: 10px;
+
+}
+
+.header {
+
+    text-align: center;
+
+    background-color: lightpink;
+    text-decoration-color: brown;
+    border: dotted blue;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    border-radius: 100px;
+
+
+
+
+
+
+
+}
+
+.content {
+    grid-template-rows: repeat(4, 200px);
+    font-family: fantasy;
+
+    display: grid;
+    grid-gap: 10px;
+
+
+
+
+
+}
+
+.goombas {
+
+    text-align: left;
+    background-color: lightsalmon;
+    display: inline-block;
+    width: 800px;
+    border-radius: 50px;
+
+
+
+
+
+}
+
+.Bob-ombs {
+    text-align: right;
+    background-color: lightgreen;
+    width: 800px;
+    position: relative;
+    left: 600px;
+    border-radius: 50px;
+
+
+}
+
+.Cheep-cheeps {
+    text-align: left;
+    background-color: lightblue;
+    width: 800px;
+    border-radius: 50px;
+}
+
+.button {
+    background-color: lightgoldenrodyellow;
+
+    text-align: center;
+    position: relative;
+    border-radius: 100px;
+
+
+
+
+
+}
+
+#submit {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: brown;
+
+
+}
+
+#result {
+    position: relative;
+    top: 60px;
+
+}
+
+
+
+.footer {
+    justify-content: right;
+    font-family: fantasy;
+    position: relative;
+    top: 100px;
+
+
+
+}
+
+#goo {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 5px;
+}
+
+#bob {
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin: 5px;
+}
+
+#cheep {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 5px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        width: 430px;
+    }
+
+    .goombas {
+        width: 430px;
+    }
+
+    .Bob-ombs {
+        width: 430px;
+        position: relative;
+        left: 0px;
+    }
+
+    .Cheep-cheeps {
+        width: 430px;
+
+    }
+
+
+
+    .button {
+        width: 430px
+    }
+
+}
