@@ -1,0 +1,245 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+.des {
+    font-family: fantasy;
+    background-image: url(https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1955&q=80);
+    display: flex;
+    height: 70vh;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width:90%;
+    margin: auto;
+    flex-direction: column;
+
+    /* width: 960px;
+    position: relative;
+    margin:0 auto;
+    line-height: 1.4em; */
+}
+.baghdad{
+    background-image: url(https://fas.org/nuke/guide/iraq/facility/baghdad-mem1.jpg);
+    height: 50vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: fantasy;
+    font-size: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgba(23, 6, 119, 0.972)
+}
+
+.hot {
+    background-image: url(https://chainimage.com/images/full-view-and-download-summer-yellow-wallpaper-with-resolution-of.jpg);
+    height: 50vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: fantasy;
+    font-size: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgba(23, 6, 119, 0.972)
+    
+
+}
+
+.cold {
+    background-image: url(https://storage.needpix.com/rsynced_images/blue-sky-13752572047Oz.jpg);
+    height: 50vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: fantasy;
+    font-size: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgba(23, 6, 119, 0.972)
+
+}
+
+.navBar {
+    font-family: fantasy;
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+    align-items: center;
+
+
+}
+
+.link {
+    text-decoration: none;
+    font-size: 30px;
+
+}
+
+body {
+
+    width: 100wh;
+    height: 90vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 5s ease infinite;
+    -moz-animation: Gradient 5s ease infinite;
+    animation: Gradient 5s ease infinite;
+    background-repeat: no-repeat;
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.there {
+    color: rgba(6, 55, 119, 0.972);
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-family: 'Jua', sans-serif;
+    font-size: 35px;
+    margin: 10px;
+
+
+}
+
+.btn {
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-family: 'Jua', sans-serif;
+    color: rgba(7, 75, 100, 0.829);
+    height: 5vh;
+    background: none;
+    font-size: 15px;
+    border: none;
+}
+
+.input {
+    height: 8vh;
+    width: 30vh;
+    background: none;
+    border-radius: 10px;
+    font-size: 3vh;
+    font-family: 'Annie Use Your Telescope', cursive;   
+    font-family: 'Jua', sans-serif;
+    /* color: blue; */
+    /* padding-top: 20px; */
+    border: none;
+    
+    
+    
+
+}
+.city{
+    text-decoration-color: #EE7752;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin:auto;
+    grid-gap: 30px;
+    justify-items: center;
+
+   
+}
+.card{
+    margin-bottom: 20px;
+   background-image: url(https://images.unsplash.com/photo-1443694910004-3567042689f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1647&q=80);
+   color:  rgba(119, 19, 6, 0.972);
+   background-size: cover;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 80%;
+   margin:auto; 
+   text-shadow:2px;
+   margin: 20px;
+ 
+}
+
+@media only screen and (max-width:479px) {
+    .des {
+        width: 90%;
+        position: relative;
+        margin: 0 auto;
+        line-height: 1.4em;
+        display: grid;
+        /* justify-content: row; */
+        grid-template-columns: 1fr;
+    }
+
+    form{
+        display: block;
+    }
+
+    .there {
+        text-align: center;
+    }
+    .container{
+        display:grid;
+         grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+.link:hover{
+    color: yellow;
+    transition-delay: 0.2s;
+    
+}
+/* .input :placeholder-shown{
+    color: blue;
+} */
