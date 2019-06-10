@@ -1,0 +1,58 @@
+{
+    "appetizers" : [
+       {"name": "tabula",
+        "ingredients": "[oliveOil, tomato, lime]",
+        "description": "veryGood"},
+        { "name": "jagik",
+          "ingredients": "[cucumber, yougurt, mint]",
+          "description": "veryGood"  
+        }
+
+    ],
+    "coldSandwiches":[
+        { "name": "kuba",
+          "ingredients": "[meat, veggies, cheese]",
+          "description": "veryGood" 
+        },
+        { "name": "mahshi",
+            "ingredients": "[ rice, veggies, tomato]",
+            "description": "veryGood"
+         } 
+        ],
+        "hotSandwiches":[
+            {"name":"aliLamee",
+            "ingredients": "[meat, onion, tomato]",
+            "description": "veryGood"
+            },
+            {"name": "tahoina",
+                "ingredients":"[meat, onion, tomato]",
+                "description":"veryGood"
+
+            }
+             ],
+             "desserts":[
+                 { "name": "cake",
+                    "ingredients":"[ milk, flour, egg]",
+                    "description":"veryGood"
+                },{
+                    "name": "iceCream",
+                    "ingredients":"[milk, colors, ice]",
+                    "description":"veryGood"
+                }
+
+             ],
+             "drinks":[
+                 { "name":"ayran",
+                    "ingredients":"[water, yougurt, mint]",
+                    "description":"veryGood"
+                 },
+                 {  "name": "water",
+                    "ingredients": "[H,2o]",
+                    "description": "veryGood"
+
+                }
+             ]
+             
+
+
+}

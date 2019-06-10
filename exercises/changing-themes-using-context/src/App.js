@@ -1,6 +1,6 @@
 import React from 'react'
 import {withTheme} from './ThemeProvider'
-import Main from './Main'
+
 import Footer from './Footer'
 import Navbar from './Navbar'
 import Styles from './Styles.css'

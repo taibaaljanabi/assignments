@@ -1,0 +1,42 @@
+body{
+    background-color: lightpink;
+    
+}
+#Taiba{
+    height:200px;
+    width: 300px;
+    background-color: lightseagreen;
+    padding: 10px;
+    left: 500px;
+    position: relative;
+    margin: 20px;
+    border: dashed blue;
+   
+}
+#Ali{
+    height:200px;
+    width: 300px;
+    background-color: lightsteelblue;
+    padding: 10px;
+    left: 500px;
+    position: relative;
+    margin:20px;
+    border: dashed red;
+   
+}
+#Jabbar{
+    height:200px;
+    width: 300px;
+    background-color: lightskyblue;
+    padding: 10px;
+    left: 500px;
+    position: relative;
+    margin: 20px;
+    border: dashed greenyellow;
+   
+}
+h1{
+    text-align: center;
+    text-decoration-color: burlywood;
+    font-family: fantasy;
+}

@@ -1,0 +1,33 @@
+Form{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 10px;
+   border: solid black;
+   padding: 20px;
+   align-items: center;
+   border-radius: 10px;
+
+  
+   
+
+}
+.tell{
+    width: 2fr;
+    border: solid black;
+    height: 100px;
+}
+input{
+    border:solid black;
+    height: 20px;
+}
+button{
+    background-color:lightgray;
+    width:80px;
+    border:solid pink;
+    border-radius: 10px;
+    
+    
+
+
+}
+

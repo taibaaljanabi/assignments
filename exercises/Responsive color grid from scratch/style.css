@@ -1,0 +1,51 @@
+
+body{
+    background: black;
+    height: 1000px;
+    width: 1000px;
+}
+
+
+.container{
+    height: 1000px;
+    width: 1000px;
+    display: inline-block;
+}
+
+
+    
+
+
+
+
+
+.box{
+ height:250px;
+  display: inline-block;
+  margin: 0px;
+    
+}
+.one{
+    width: 1000px;
+    background-color: #F5C6D6;
+  
+
+}
+.two{
+    width: 250px;
+    background-color: #EE2E84;
+}
+.three{
+    width: 500px;
+    background-color: #85CFD8;
+
+}
+.four{
+    width: 750px;
+    background-color:#8DC63F 
+    
+}
+.five{
+    width: 250px;
+    background-color: #E76E34;
+}

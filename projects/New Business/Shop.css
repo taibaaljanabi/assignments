@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+img{
+    height: 400px;
+    width: 500px;
+
+}
+.div1{
+    background-color: white;
+    font-family: 'Indie Flower', cursive;
+    display: inline-block;
+    font-size: 40px;
+}

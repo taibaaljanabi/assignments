@@ -1,0 +1,33 @@
+#main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 300px;
+    text-align: center;
+
+}
+.toDoList{
+    border: solid black;
+    margin: 20px 70px;
+    box-shadow: 5px 5px 5px;
+    background: lightpink;
+   display: flex;
+   flex-direction: column;
+
+
+}
+.form{
+    display: grid;
+    width: 100%;
+    margin: auto;
+    
+
+}
+
+
+
+    
+   
+  
+    
+    
+

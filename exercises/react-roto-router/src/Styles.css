@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+.navB{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: lightpink;
+    height: 100px;
+
+
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color:white;
+    height: 400px;
+
+
+}
+.about{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color:rgba(147, 93, 181, 0.653);
+    height: 400px;
+
+}
+.services{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color:rgba(147, 93, 181, 0.653);
+    height: 400px;
+
+}

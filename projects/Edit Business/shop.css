@@ -1,0 +1,39 @@
+*{
+    margin: 10px;
+    padding: 0px;
+}
+.header{
+    height: 100vh;
+    /* background-image: url(https://img2.goodfon.com/wallpaper/nbig/5/15/shelk-satin-atlas-tkan.jpg); */
+}
+.navbar-style{
+    box-shadow: 0 5px 10px rgb(184, 93, 52);
+    font-family: 'Pacifico', cursive;
+    font-size: 40px
+    
+}
+.logo{
+    height: 100px;
+    padding: 2px 10px;
+}
+.icon-bar{
+    background: brown;
+}
+.bigtxt{
+    font-family: 'Pacifico', cursive;
+    font-size: 52px;
+    margin: 20px 0;
+    color: brown;
+
+}
+a.btn{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    background: orange
+}
+.img{
+    width: 1000px;
+    box-shadow: 0 10px olivedrab;
+}

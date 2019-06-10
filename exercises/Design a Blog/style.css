@@ -1,0 +1,66 @@
+/* A fixed horizontal navbar (meaning it is always on the top of the page, even if you scroll down)
+A blog-style feed, where each blog post (which you'll just hard-code in for now) is in the center of the page, and as your scroll down the page it shows older blog posts.
+Each blog post should have a title of some kind
+Each blog post should have the date it was "published"
+Each blog post should have a photo of some kind near the top of the text, and the text should wrap around the photo and have a reasonable margin between the photo and the wrapped text. */
+/* 
+*{
+    margin: 0;
+    font-size: 0;
+    box-sizing: border-box; */
+
+/* } */
+body {
+    background: white;
+    height: 3000pt;
+}
+.navbar{
+    background: white;
+    color: blue;
+    padding: 20px;
+    position: fixed;
+    height: 100px;
+    width: 300px;
+    font-size: 100px;
+    align-content: center;
+    left: 400px;
+    top: 20px;
+    font-family: fantasy;
+    z-index: 1;
+}
+.blog{
+    background:grey;
+    font-size: 40px;
+    padding:10px;
+    font-family: fantasy; 
+    
+}
+h1{
+    text-align: center;
+}
+.one{
+   background: lightpink;
+    color: black;
+    position: relative;
+    top: 200px;
+}
+.two{
+    background: lightseagreen;
+    color: black;
+    position: relative;
+    top: 300px;
+
+}
+.three{
+    background: lightskyblue;
+    color: black;
+    position: relative;
+    top: 400px;
+
+}
+img{
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}

@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background: gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.square-container{
+    width:100vh;
+    height: 50vh;
+    background: rgb(191, 98, 98);
+    padding: 20pt;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    
+}
+button{
+    width:25%;
+    height: 40pt;
+    border: solid 3pt pink;
+}
+.box{
+    background: white;
+    /* width: 100%;
+    height: 100%; */
+    border: solid 2pt black;
+}
