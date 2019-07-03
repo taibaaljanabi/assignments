@@ -44,6 +44,7 @@ function displayTodos(todos, updated){
             parentDiv.style.display = "none"
             axios.delete(`https://api.vschool.io/Taiba/todo/${todo._id}`)
         })
+
         checkBox.addEventListener('click', function(){
             checkTodo(todo)
             axios.get(`https://api.vschool.io/Taiba/todo`).then(res => {
@@ -53,22 +54,16 @@ function displayTodos(todos, updated){
         })
         if(todo.completed){
             checkBox.checked = true 
-            parentDiv.style.decoration = 'line-through'
+            parentDiv.style.textDecoration = 'line-through'
         }else{
-            parentDiv.style.decoration = 'none'
+            parentDiv.style.textDecoration = 'none'
         }
     
-
-
       
         parentDiv.setAttribute("class", "toDoList")
         checkBox.setAttribute("type", "checkBox")
         image.setAttribute("width", "60px")
 
-
-       
-        
-        
         parentDiv.appendChild(titleH2)
         parentDiv.appendChild(discp)
         parentDiv.appendChild(pricp)
@@ -86,7 +81,7 @@ function displayTodos(todos, updated){
         
     })
 }
-const checkBox = oldTodo => {
+const checkTodo = oldTodo => {
     axios.put(`https://api.vschool.io/Taiba/todo/${oldTodo._id}`, {completed: !oldTodo.completed}).then(response => {
         const newList = todolist.map(todo => todo._id === oldTodo._id ? response.data : todo)
         // getTodo([oldTodo])

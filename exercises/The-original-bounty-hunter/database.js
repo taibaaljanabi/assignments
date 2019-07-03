@@ -1,7 +1,7 @@
 module.exports = [
     {
-        firstName: "Sasa",
-        lastName: "tara",
+        firstName: "monster3",
+        lastName: "naal",
         living: true,
         bountyAmount: 5,
         type: 'sith',
@@ -9,8 +9,8 @@ module.exports = [
 
     },
     {
-        firstName: "tamara",
-        lastName: "Nassif",
+        firstName: "monster2",
+        lastName: "naal",
         living: true,
         bountyAmount: 6,
         type:"jedi",
@@ -18,8 +18,8 @@ module.exports = [
 
     },
     {
-        firstName:"zahraa",
-        lastName:"noori",
+        firstName:"monster1",
+        lastName:"naal",
         living:true,
         bountyAmount:7,
         type:"sith",

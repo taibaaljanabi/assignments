@@ -176,10 +176,10 @@ body {
     /* color: blue; */
     /* padding-top: 20px; */
     border: none;
-    
-    
-    
 
+}
+::placeholder{
+    color:   rgba(6, 55, 119, 0.972);
 }
 .city{
     text-decoration-color: #EE7752;

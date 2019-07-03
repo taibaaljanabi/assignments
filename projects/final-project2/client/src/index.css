@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.app-wrapper{
+    height: 100vh;
+}
+
+.navbar-wrapper{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#2C3531;
+    opacity: .5;
+    height: 10vh;
+    font-family: 'Roboto', sans-serif;
+  
+}
+form p {
+    color: firebrick;
+}
+.signup{
+    text-decoration: none;
+    color:#FFCB9A;
+    font-size: 20px;
+}
+.signup:hover{
+    color:    rgb(8, 20, 8);
+}
+.login{
+    text-decoration: none;
+    color:#FFCB9A;
+    font-size: 20px;
+}
+.login:hover{
+    color: rgb(8, 20, 8);  
+}
+.projects{
+    text-decoration: none;
+    color:#FFCB9A;
+    font-size: 20px;
+}
+.projects:hover{
+    color: rgb(8, 20, 8);  
+}
+.logout{
+    text-decoration: none;
+    color:#FFCB9A;
+    font-size: 20px;
+}
+.logout:hover{
+    color: rgb(8, 20, 8); 
+}
+.form-wrapper{
+    background-color:#D9B08C;
+    width: 60%;
+    position: relative;
+    left: 35vh;
+    top: 20vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 40px;
+
+    
+}
+ .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} 
+
+input{
+    margin-right: 35vh;
+    margin-left: 35vh;
+    height: 5vh;
+    border-radius: 40px;
+}
+button{
+    margin-right: 30vh;
+    margin-left: 30vh;
+    height: 7vh;
+    border-radius: 40px;
+    background: rgb(12, 83, 12);
+    font-size: 15px;
+    color: #D9B08C;
+    
+}
+.projectBtn{
+    margin-right: 30vh;
+    margin-left: 30vh;
+    height: 7vh;
+    border-radius: 40px;
+    background: rgb(12, 83, 12);
+    font-size: 15px;
+    color: #D9B08C;
+    width: 15vh;
+
+}
+.welcoming{
+    font-size: 25px;
+    color: rgb(12, 83, 12);
+}
+
+.addProjectForm{
+    display: flex;
+    flex-direction: column;
+}
+.projectCard{
+    margin-bottom: 20px;
+   color:  rgba(119, 19, 6, 0.972);
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 80%;
+   margin:auto; 
+   text-shadow:2px;
+   margin: 20px;
+   background-color: #D9B08C;
+   width:50vh;
+   height: 40vh;
+}
+.projectsList{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    margin:auto;
+    justify-items: center;
+    margin-top: 30px;
+    grid-gap: 30px;
+
+}
+.chooseFile{
+    background: rgb(120, 142, 120);
+}
+
