@@ -22,7 +22,7 @@ function Navbar(props) {
                 <Link to="/projects" className='projects'>Your projects</Link>
             </div>
             <div className="nav-link" className='logout'>
-                <button onClick={() => props.logout()}>Logout</button>
+                <button onClick={() => props.logout()} className='logoutBtn'>Logout</button>
             </div>
             </React.Fragment>
         }

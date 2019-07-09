@@ -140,4 +140,9 @@ button{
 .chooseFile{
     background: rgb(120, 142, 120);
 }
+.logoutBtn{
+    background-color: rgba(255, 0, 0, 0.452);
+    width: 150px;
+    height: 40px;
+}
 

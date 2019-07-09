@@ -13,9 +13,9 @@ var enemies = ["Lex", "Batman", "Darkseid", "Brainiac", "General Zod", "Doomsday
 
 function whoWins(isThereKryptonite, enemyName) {
     if (!isThereKryptonite) {
-        return "Superman beats " + enemyName + ", of course";
+        return ("Superman beats " + enemyName + ", of course");
     } else {
-        return "Depends on how quick Superman can get rid of the Kryptonite. " + enemyName + " could possibly win this one.";
+        return ("Depends on how quick Superman can get rid of the Kryptonite. " + enemyName + " could possibly win this one.");
     }
 }
 
@@ -37,14 +37,14 @@ function howAttractedIsLoisLaneToMe() {
 console.log(howAttractedIsLoisLaneToMe());
 
 var clarkKent = true;
-var superman = false;
+var superMan = false;
 
 while (clarkKent) {
     console.log("I'm just a nerdy columnist");
     var phoneBoothQuickChange = Math.random();
     if (phoneBoothQuickChange >= 0.5) {
         clarkKent = false;
-        superman = true;
+        superMan = true;
         console.log("Now I'm Superman!");
     }
 }

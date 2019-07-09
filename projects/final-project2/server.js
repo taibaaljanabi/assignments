@@ -5,7 +5,20 @@ const morgan = require("morgan")
 const bodyParser = require("body-parser")
 const expressJwt = require("express-jwt")
 require("dotenv").config()
+
+const multer = require('multer');
 const PORT = process.env.PORT || 5000
+const storage = multer.diskStorage({destination: function (req, file, cb){
+    cb(null, 'upload')
+},
+filename: function (req, file, cb){
+    cb(null, file.fieldname + '-' + Date.now() )
+}
+})
+
+
+const upload = multer({storage : storage})
+  
 
 app.use(bodyParser.json())
 app.use(morgan("dev"))
