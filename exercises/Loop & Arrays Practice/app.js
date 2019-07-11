@@ -1,54 +1,46 @@
-// var officeItems = ["stapler", "monitor", "computer", "desk", "lamp", "computer", "lamp", "stapler", "computer", "computer"]
+// 1/
 
-// function countComputer(arr) {
-//     let numOfComputer = 0
-//     for (i = 0; i < officeItems.length; i++) {
-//         if (officeItems[i] === "computer") {
-//             numOfComputer++}}
-// return numOfComputer
-// }console.log(countComputer(officeItems))
-// for (var i = 0; i <= 10; i++) {
-//   if (i === 7) {
-//       continue;
-//   }
-//   console.log(i);
-// }
-// var eventsAtWork = ["work", "pretend to work", "party", "work", "meeting", "party", "daily grind", "work", "party"]
-// for (var i = 0; i < eventsAtWork.length; i++) {
-//   if (eventsAtWork = "party"){
-//     console.log ("hooray")
-//   }
-// }
-// var booleans = [true, true, false, true, false, false, false]
 
-// function countTruth(arr) {
-//   let numOfTruths = 0
-//   for (i = 0; i < booleans.length; i++) {
-//     if (booleans[i] === true) {
-//       numOfTruths++
-//     }
+// var officeItems = ["stapler", "monitor", "computer", "desk", "lamp", "computer", "lamp", "stapler", "computer",  "computer"]
 
+// for (i = 0 ; i <= officeItems.length; i++){
+//   let k = 0
+//   if (officeItems[i] === 'computer'){
+//     sum = k + 1
+//     console.log(sum)
 //   }
-//   return (numOfTruths)
+ 
+
 // }
-// console.log(countTruth(booleans))
-var users = [{
-    name: "Sophie",
-    age: 12
-  },
+
+// 2/
+var peopleWhoWantToSeeMadMaxFuryRoad = [
   {
-    name: "Larry",
-    age: 32
-  },
-  {
-    name: "Cathy",
-    age: 40
+    name: "Mike",
+    age: 12,
+    gender: "male"
+  },{
+    name: "Madeline",
+    age: 80,
+    gender: "female"
+  },{
+    name: "Cheryl",
+    age: 22,
+    gender: "female"
+  },{
+    name: "Sam",
+    age: 30,
+    gender: "male"
+  },{
+    name: "Suzy",
+    age: 4,
+    gender: "female"
   }
-  
-]}
-
-for (i = 0; i < users.length; i++) {
-  users[i].push()
+] 
+for (i = 0; i <= peopleWhoWantToSeeMadMaxFuryRoad.length; i++){
+  if(peopleWhoWantToSeeMadMaxFuryRoad[i].age > 18){
+    console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + '' + ' is Old Enough to see mad max')
+  }else{
+    console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name +''+  ' is Not Old enough to see mad Max')
+  }
 }
-
-console.log(users[i])
