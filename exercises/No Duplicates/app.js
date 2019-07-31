@@ -46,5 +46,14 @@ function removeLetter(string){
     return removeLetterStr
     
 }
-console.log(removeLetter('good morning world'))
+// console.log(removeLetter('good morning world'))
+
+// Create a function using regular expressions that remove all vowels.
+
+function removeVowels(string){
+     let newStr = string.split('a').join('').split('o').join('').split('i').join('').split('u').join('')
+    return newStr
+    }
+
+console.log(removeVowels('good morning'))
 
