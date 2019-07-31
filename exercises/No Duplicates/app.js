@@ -18,6 +18,11 @@
 
 // console.log(scramble(uniqueArr))
 
+
+// Given a string, remove any duplicate letters.
+
+
+
 function find_unique_characters( string ){
     let unique='';
     for(let i=0; i<string.length; i++){
@@ -27,4 +32,19 @@ function find_unique_characters( string ){
     }
     return unique;
 }
-console.log(find_unique_characters('Taiba'));
+// console.log(find_unique_characters('Ttaiba'));
+
+
+
+// Create a function that randomly removes a letter.
+
+function removeLetter(string){
+    const newStr = string.split('')
+    let selectLetter = Math.floor(Math.random() * newStr.length)
+    let removeLetter = newStr.splice(selectLetter, 1)
+    let removeLetterStr = removeLetter.toString()
+    return removeLetterStr
+    
+}
+console.log(removeLetter('good morning world'))
+
