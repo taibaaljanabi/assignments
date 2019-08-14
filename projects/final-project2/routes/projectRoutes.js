@@ -64,38 +64,38 @@ projectRouter.delete("/:projectId", (req, res, next) =>{
         return res.send(project)
     })
 })
-app.post('/uploadfile', upload.single('myFile'), (req, res, next) => {
-    const file = req.file
-    if (!file) {
-      const error = new Error('Please upload a file')
-      error.httpStatusCode = 400
-      return next(error)
-    }
-      res.send(file)
+// app.post('/uploadfile', upload.single('myFile'), (req, res, next) => {
+//     const file = req.file
+//     if (!file) {
+//       const error = new Error('Please upload a file')
+//       error.httpStatusCode = 400
+//       return next(error)
+//     }
+//       res.send(file)
     
-  })
+//   })
 
-  app.post('./uploadphoto', upload.single('picture'), (req, res)=>{
-      const img = fs.readFileSync(req.file.path)
-      const encode_image = img.toString('base64')
-      const finalImg = {
-          contentType: req.file.mimetype,
-          image: new Buffer(encode_image, 'base64')
-      }
-      db.collection('quotes').insertOne(finalImg, (err,result) =>{
-          console.log(result)
+//   app.post('./uploadphoto', upload.single('picture'), (req, res)=>{
+//       const img = fs.readFileSync(req.file.path)
+//       const encode_image = img.toString('base64')
+//       const finalImg = {
+//           contentType: req.file.mimetype,
+//           image: new Buffer(encode_image, 'base64')
+//       }
+//       db.collection('quotes').insertOne(finalImg, (err,result) =>{
+//           console.log(result)
 
-          if(err) return console.log(err)
+//           if(err) return console.log(err)
 
-      console.log('saved to the database')
-      res.redirect('/')
-      })
+//       console.log('saved to the database')
+//       res.redirect('/')
+//       })
 
-      app.get('photo/:id', (req, res)=> {
-          var filename = req.params._id 
+//       app.get('photo/:id', (req, res)=> {
+//           var filename = req.params._id 
           
-        })
-  })
+//         })
+//   })
 
 
 

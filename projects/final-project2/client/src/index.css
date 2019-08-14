@@ -14,7 +14,7 @@
     justify-content: space-around;
     align-items: center;
     background-color:#2C3531;
-    opacity: .5;
+    /* opacity: .5; */
     height: 10vh;
     font-family: 'Roboto', sans-serif;
   
@@ -28,7 +28,7 @@ form p {
     font-size: 20px;
 }
 .signup:hover{
-    color:    rgb(8, 20, 8);
+    color:    rgb(195, 68, 68);
 }
 .login{
     text-decoration: none;
@@ -36,7 +36,7 @@ form p {
     font-size: 20px;
 }
 .login:hover{
-    color: rgb(8, 20, 8);  
+    color: rgb(195, 68, 68);  
 }
 .projects{
     text-decoration: none;
@@ -52,12 +52,12 @@ form p {
     font-size: 20px;
 }
 .logout:hover{
-    color: rgb(8, 20, 8); 
+    color: rgb(195, 68, 68); 
 }
 .form-wrapper{
-    background-color:#D9B08C;
+    background: linear-gradient(rgb(221, 214, 214, 0.6), rgb(221, 214, 214, 0.6)), url(https://images.unsplash.com/photo-1542831371-d531d36971e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80), no-repeat center center fixed;
     width: 60%;
-    position: relative;
+    position: absolute;
     left: 35vh;
     top: 20vh;
     height: 50vh;
@@ -66,6 +66,10 @@ form p {
     justify-content: space-around;
     font-family: 'Roboto', sans-serif;
     border-radius: 40px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    white-space: nowrap;
+    box-shadow: 7px 7px 7px rgba(68, 68, 68, 0.7); 
 
     
 }
@@ -104,7 +108,7 @@ button{
 }
 .welcoming{
     font-size: 25px;
-    color: rgb(12, 83, 12);
+    color: rgb(195, 68, 68);
 }
 
 .addProjectForm{
@@ -145,4 +149,11 @@ button{
     width: 150px;
     height: 40px;
 }
-
+/* .signinSignup{
+    display: flex;
+    justify-content: space-around;
+} */
+.logo{
+    z-index: 1;
+    height: 150px;
+}

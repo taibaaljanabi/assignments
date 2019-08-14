@@ -1,11 +1,18 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { withContext } from "./AppContext"
+import Logo from './images/logo.png'
 
 
 function Navbar(props) {
     return (
+       
+        
         <nav className="navbar-wrapper">
+       < Link to='/signup'>
+        <img src={Logo} className='logo' alt='logo' />
+        </Link>
+        {/* <div className='signinSignup'> */}
         { 
             !props.token ?
             <React.Fragment>
@@ -23,10 +30,13 @@ function Navbar(props) {
             </div>
             <div className="nav-link" className='logout'>
                 <button onClick={() => props.logout()} className='logoutBtn'>Logout</button>
+
             </div>
             </React.Fragment>
         }
+        {/* </div> */}
         </nav>
+       
     )
 }
 
