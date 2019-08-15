@@ -1,15 +1,17 @@
 * {
-    box-sizing: border-box;
-    text-align: center;
+   /* margin: 0; */
+   /* padding: 0; */
+   /* box-sizing: border-box; */
 }
 
 .app-wrapper{
     height: 100vh;
+    
 }
 
 .navbar-wrapper{
     width: 100%;
-    margin: auto;
+    /* margin: auto; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -17,6 +19,8 @@
     /* opacity: .5; */
     height: 10vh;
     font-family: 'Roboto', sans-serif;
+ 
+    
   
 }
 form p {
@@ -70,6 +74,7 @@ form p {
     background-size:cover;
     white-space: nowrap;
     box-shadow: 7px 7px 7px rgba(68, 68, 68, 0.7); 
+    align-items: center;
 
     
 }
@@ -77,6 +82,7 @@ form p {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 } 
 
 input{
@@ -84,17 +90,23 @@ input{
     margin-left: 35vh;
     height: 5vh;
     border-radius: 40px;
+    box-shadow: 7px 7px 7px rgba(68, 68, 68, 0.7);
+    text-align: center;
 }
-button{
-    margin-right: 30vh;
-    margin-left: 30vh;
+.submitbtn{
+    /* margin-right: 30vh;
+    margin-left: 30vh; */
     height: 7vh;
     border-radius: 40px;
-    background: rgb(12, 83, 12);
+    background: rgba(12, 83, 12, 0.6);
     font-size: 15px;
     color: #D9B08C;
-    
+    width: 10rem;
+    /* position: relative; */
+    box-shadow: 7px 7px 7px rgba(68, 68, 68, 0.7); 
 }
+submitbtn
+
 .projectBtn{
     margin-right: 30vh;
     margin-left: 30vh;

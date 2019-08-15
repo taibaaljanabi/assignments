@@ -58,7 +58,7 @@ class LoginForm extends Component{
                         type="password"
                         placeholder="password"/>
                         <br/>
-                    <button type="submit" >Submit</button>
+                    <button type="submit" className='submitbtn' >Submit</button>
                 </form>
                 {
                     this.state.errorMessage && 

@@ -43,7 +43,7 @@ class SignUp extends Component {
         return (
             <div className="form-wrapper">
                 <form onSubmit={this.handleSubmit} className='form'>
-                    <h3 className='welcoming'>Sign Up to start tracking your projects with this amazing app</h3>
+                    <h3 className='welcoming'>Sign Up to start tracking your projects with Projects Tracker</h3>
                     <input
                         onChange={this.handleChange}
                         value={this.state.username}
@@ -58,7 +58,7 @@ class SignUp extends Component {
                         type="password"
                         placeholder="Password"/>
                         <br/>
-                    <button type="submit">Create Account</button>
+                    <button type="submit" className='submitbtn'>Create Account</button>
                 </form>
                 {
                     this.state.errorMessage && 

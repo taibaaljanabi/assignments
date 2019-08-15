@@ -8,7 +8,7 @@ function Navbar(props) {
     return (
        
         
-        <nav className="navbar-wrapper">
+        <div className="navbar-wrapper">
        < Link to='/signup'>
         <img src={Logo} className='logo' alt='logo' />
         </Link>
@@ -35,7 +35,7 @@ function Navbar(props) {
             </React.Fragment>
         }
         {/* </div> */}
-        </nav>
+        </div>
        
     )
 }
