@@ -20,6 +20,14 @@ const projectSchema = new Schema({
        
 
     },
+    language:{
+        type: String,
+        require: true
+    },
+    dependencies: {
+        type: String,
+        require: true
+    },
     user: {
         type: Schema.Types.ObjectId,
         ref: "User",

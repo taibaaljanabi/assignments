@@ -9,7 +9,9 @@ class AddProjectForm extends Component {
         this.state = {
             title: "",
             description: "",
-            date:""
+            date:"",
+            language: '',
+            dependencies: ''
             // selectedFile: null
         }
     }
@@ -26,7 +28,9 @@ class AddProjectForm extends Component {
         this.setState({
             title: "",
             description:"",
-            date:""
+            date:"",
+            language: '',
+            dependencies:''
         })
     }
 
@@ -53,7 +57,7 @@ class AddProjectForm extends Component {
 
     render() {
         return (
-            <div>
+            <div >
                 <form onSubmit={this.handleSubmit} className='addProjectForm'>
                     <h4>Add New Project</h4>
 
@@ -62,29 +66,40 @@ class AddProjectForm extends Component {
                         value={this.state.title}
                         onChange={this.handleChange}
                         type="text"
-                        placeholder="Title"/>
+                        placeholder="Title"
+                        className='projectInputs'/>
                         <input
                         name="description"
                         value={this.state.description}
                         onChange={this.handleChange}
                         type="text"
-                        placeholder="Add note"/>
+                        placeholder="Add note"
+                        className='projectInputs'
+                        />
                          <input
                         name="date"
                         value={this.state.date}
                         onChange={this.handleChange}
                         type="text"
-                        placeholder="Add date"/>
-
-                    <input
-                       className='chooseFile' 
-                       type='file'
-                       onChange={this.fileSelectedHandler}
-                       /> 
-                     {/* <button onClick = {this.fileUploadHandler}>Upload</button>   */}
-                     {/* <form action='/api/images' method="post" enctype="multipart/form-data">  <input type='file' name='image' /></form>  */}
-                       
-
+                        placeholder="Add date"
+                        className='projectInputs'
+                        />
+                       <input 
+                        name='language'
+                        value={this.state.language}
+                        onChange={this.handleChange}
+                        type='text'
+                        placeholder='Add project language'
+                        className='projectInputs'
+                        />
+                         <input 
+                        name ='dependencies'
+                        value={this.state.dependencies}
+                        onChange={this.handleChange}
+                        type='text'
+                        placeholder='Enter project dependencies'
+                        className='projectInputs'
+                        />
                     <button>Add Project</button>
 
 
