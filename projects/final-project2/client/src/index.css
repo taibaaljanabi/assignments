@@ -107,17 +107,21 @@ input{
 }
 /* submitbtn */
 
-.projectBtn{
-    margin-right: 30vh;
-    margin-left: 30vh;
-    height: 7vh;
-    border-radius: 40px;
-    background: rgb(12, 83, 12);
-    font-size: 15px;
-    color: #D9B08C;
-    width: 15vh;
-
+.projectBtn-delete,
+.projectBtn-edit{
+   background: none;
+   border: none;
+   font-size: 2rem;
+   outline: none;
+   cursor: pointer
 }
+.projectBtn-delete{
+color: red;
+}
+.projectBtn-edit{
+    color: green;
+}
+
 .welcoming{
     font-size: 25px;
     color: rgb(195, 68, 68);
@@ -177,4 +181,13 @@ input{
 .projectInputs{
     background: #D9B08C;
     width: 20%;
+}
+h5{
+    margin: 0;
+}
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 30%;
 }

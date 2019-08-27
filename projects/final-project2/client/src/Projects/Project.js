@@ -1,4 +1,6 @@
 import React from 'react';
+import {MdEdit, MdDeleteSweep} from 'react-icons/md'
+
 
 function Project(props) {
     return (
@@ -12,7 +14,9 @@ function Project(props) {
                 <h5>{props.project.description}</h5>
                 <h5>{props.project.language}</h5>
                 <h5>{props.project.dependencies}</h5>
-            <button onClick={() => props.deleteProject(props.project._id)} className='projectBtn'>Delete Project</button>
+                <div className='btns'>
+            <button onClick={() => props.deleteProject(props.project._id)} className='projectBtn-delete'><MdDeleteSweep/></button><button onClick={() => props.editProject (props.project._id)} className= 'projectBtn-edit'><MdEdit/></button>
+            </div>
         </div>
     )
 }

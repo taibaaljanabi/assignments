@@ -17,7 +17,8 @@ export class AppContextProvider extends Component {
         this.state = {
             projects:[],
             user: JSON.parse(localStorage.getItem("user")) || {},
-            token: localStorage.getItem("token") || ""
+            token: localStorage.getItem("token") || "",
+            setEdit: false
         }
     }
 
@@ -44,12 +45,14 @@ export class AppContextProvider extends Component {
     }
 
     editProject = (projectId, project) => {
+        console.log('you are editing')
         return projectAxios.put(`/api/project/${projectId}`, project)
             .then(response => {
                 this.setState(prevState => {
                     const updatedProjects = prevState.projects.map(project => {
                         return project._id === response.data._id ? response.data : project
                     })
+                    
                     return { projects: updatedProjects }
                 })
                 return response;
