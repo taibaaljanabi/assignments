@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Axios from 'axios'
+import {MdDone} from 'react-icons/md'
  
 
 
@@ -59,8 +60,7 @@ class AddProjectForm extends Component {
         return (
             <div >
                 <form onSubmit={this.handleSubmit} className='addProjectForm'>
-                    <h4>Add New Project</h4>
-
+                <h3 className='AddProject'>Add New Project</h3>
                     <input
                         name="title"
                         value={this.state.title}
@@ -97,10 +97,10 @@ class AddProjectForm extends Component {
                         value={this.state.dependencies}
                         onChange={this.handleChange}
                         type='text'
-                        placeholder='Enter project dependencies'
+                        placeholder='Add project dependencies'
                         className='projectInputs'
                         />
-                    <button>Add Project</button>
+                    <button className= 'projectBtn-edit'><MdDone/></button>
 
 
                 </form>

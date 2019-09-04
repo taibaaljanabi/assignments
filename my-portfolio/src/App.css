@@ -10,7 +10,7 @@
     
 }
 .link{
-    font-size: 40px;
+    font-size: 2rem;
     text-decoration: none;
     font-family: 'News Cycle', sans-serif;
 }
@@ -43,11 +43,11 @@
     background:none;
     width: 20%;
     color:#062d58;
-    font-size: 50px;
+    font-size: 1.8rem;
     position: relative;
     top :20vh;
     right: 90px;
-   
+    
     display: flex;
     flex-direction: column;
     
@@ -109,9 +109,9 @@
 
 .linkToProjects{
     position: relative;
-    top: 90vh;
+    top:110vh;
     right: 50vh;
-    font-size: 30px;
+    font-size: 1.5rem;
     color: #062d58;
     text-decoration: none;
 }
@@ -123,6 +123,19 @@
     top:50px;
     border-style: inset;
 
+}
+.icons{
+    /* position: relative; */
+    top: 130vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+.icon{
+  
 }
 
 

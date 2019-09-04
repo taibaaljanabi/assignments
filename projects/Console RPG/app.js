@@ -63,7 +63,7 @@ while (human.hp > 0 && human.isAlive) {
 }
 
 function walk() {
-    let action = readlineSync.keyIn(" push ['w']  if you want to walk through life, push ['q'] if you want to quit and leave the earth or push ['p'] if you want print your inventory ", {
+    let action = readlineSync.keyIn( `${userName} push ['w']  if you want to walk through life, push ['q'] if you want to quit and leave the earth or push ['p'] if you want print your inventory `, {
         limit: "wqp"
     })
     if (action === 'w') {

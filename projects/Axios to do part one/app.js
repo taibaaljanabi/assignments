@@ -11,15 +11,10 @@ console.log(response.data)
 console.log(todolist)
 })
 
-
-
-
 function displayTodos(todos, updated){
     if(updated){
         document.getElementById('main').innerHTML = ""
     }
-
-
     todos.forEach((todo) => {
 
         let parentDiv = document.createElement('div')
@@ -73,12 +68,6 @@ function displayTodos(todos, updated){
 
 
         document.getElementById('main').appendChild(parentDiv)  
-
-
-       
-            
-      
-        
     })
 }
 const checkTodo = oldTodo => {
@@ -90,8 +79,6 @@ const checkTodo = oldTodo => {
     })
 }
    
-
-
     form.addEventListener("submit", function (event) {
         event.preventDefault()
 
@@ -108,8 +95,6 @@ const checkTodo = oldTodo => {
             imgUrl
         }
         postToDos(newObject)
-       
-    
     })
 
     const postToDos = (newTodo) => {

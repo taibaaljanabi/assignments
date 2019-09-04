@@ -50,7 +50,9 @@ export class AppContextProvider extends Component {
             .then(response => {
                 this.setState(prevState => {
                     const updatedProjects = prevState.projects.map(project => {
+                        // let {}
                         return project._id === response.data._id ? response.data : project
+
                     })
                     
                     return { projects: updatedProjects }

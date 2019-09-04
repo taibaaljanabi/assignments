@@ -92,6 +92,7 @@ input{
     border-radius: 40px;
     box-shadow: 7px 7px 7px rgba(68, 68, 68, 0.7);
     text-align: center;
+    /* margin-top: 10px; */
 }
 .submitbtn{
     /* margin-right: 30vh;
@@ -111,7 +112,7 @@ input{
 .projectBtn-edit{
    background: none;
    border: none;
-   font-size: 2rem;
+   font-size: 3rem;
    outline: none;
    cursor: pointer
 }
@@ -132,6 +133,7 @@ color: red;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 10vh;
 }
 .projectCard{
     margin-bottom: 20px;
@@ -181,13 +183,26 @@ color: red;
 .projectInputs{
     background: #D9B08C;
     width: 20%;
+    margin-top: 10px;
 }
 h5{
     margin: 0;
+   
 }
 .btns{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     height: 30%;
+}
+.projectInput{
+    display: inline;
+    text-decoration: underline;
+    opacity: .7;
+   
+}
+.AddProject{
+    opacity: .8;
+    font-family: fantasy;
+    text-decoration: none;
 }
